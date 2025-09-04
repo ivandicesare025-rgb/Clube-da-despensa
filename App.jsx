@@ -2,9 +2,9 @@ import React, { useEffect, useMemo, useState } from "react";
 
 const CONFIG = {
   lojaNome: "Clube da Despensa",
-  descricaoCurta: "Curadoria fina em casa.",
-  minimoPedidoReais: 300,
-  whatsappDestino: "55XXXXXXXXXXX",
+  descricaoCurta: "Curadoria em casa.",
+  minimoPedidoReais: 300,00
+  whatsappDestino: "5527992746410",
   catalogoUrl: "",
 };
 
@@ -13,7 +13,7 @@ const formatBRL = (n) =>
 
 const DEFAULT_CATALOGO = [
   { id: "azeite-ev-500", nome: "Azeite Extra Virgem 500 ml", marca: "Blend Mediterrâneo", preco: 45, unidade: "garrafa", caseSize: 6, caseOnly: false, ativo: true },
-  { id: "queijo-parmesao-1kg", nome: "Queijo Parmesão 1 kg", marca: "Cura 12 meses", preco: 120, unidade: "kg", caseSize: 1, caseOnly: false, ativo: true },
+  { id: "queijo-parmesao Argentino-1kg", nome: "Queijo Parmesão 1 kg", marca: "Cura 12 meses", preco: 120, unidade: "kg", caseSize: 1, caseOnly: false, ativo: true },
   { id: "picanha-angus-1kg", nome: "Picanha Angus 1 kg", marca: "Frisa Prime", preco: 89, unidade: "kg", caseSize: 1, caseOnly: false, ativo: true },
   { id: "azeitona-verde-2kg", nome: "Azeitona Verde 2 kg (baldinho)", marca: "La Finca", preco: 65, unidade: "balde 2 kg", caseSize: 4, caseOnly: true, ativo: true },
   { id: "provolone-kg", nome: "Provolone Defumado 1 kg", marca: "Italac", preco: 78, unidade: "kg", caseSize: 1, caseOnly: false, ativo: true },
